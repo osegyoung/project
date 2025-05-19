@@ -12,6 +12,7 @@ module.exports = defineConfig({
   devServer: {
     // Vue.js 실행 시 적용 PORT 변경
     port: 8081,
+    //outdir
     // CORS(Cross Origin Resource Sharing) => proxy setting
     proxy: {
       // 해당 문자열로 시작하는 통신에 적용하는 설정
